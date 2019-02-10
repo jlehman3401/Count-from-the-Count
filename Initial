@@ -1,0 +1,20 @@
+
+# .random .sleep 
+
+
+Print("Thank you for joining me in my castle.")
+print(")
+
+
+print("If you want to count with me, say "Da!" That is yes in Romanian. But if you leave The Count alone, so that he counts alone, say "Nu.")
+answer = input("Do you want to count with me? (Da / Nu)")
+
+answer.lower()
+
+if answer in ["da", "nu"]:
+
+print("Excellent! Let us - BEGIN!)
+
+else:
+  print("I'm sorry. Is it Da or Nu?")
+
