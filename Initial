@@ -1,20 +1,24 @@
+import random
+import time
 
-# .random .sleep 
+print("Good Evening")
+time.sleep(1.5)
+print("Thank you for joining me in my castle.")
+time.sleep(1)
+print("What shall we count today?")
+time.sleep(1.5)
+print("If you want to count with me, say 'Da!'")
+time.sleep(1)
+print("'Da!' is 'Yes!' in Romanian")
+time.sleep(1)
+print("But if you leave The Count alone,"); print("so that he counts alone, say 'Nu'.")
+time.sleep(1)
 
+answer = input("Do you want to count with me? (Da / Nu) ")
 
-Print("Thank you for joining me in my castle.")
-print(")
-
-
-print("If you want to count with me, say "Da!" That is yes in Romanian. But if you leave The Count alone, so that he counts alone, say "Nu.")
-answer = input("Do you want to count with me? (Da / Nu)")
-
-answer.lower()
+answer = str(answer.lower())
 
 if answer in ["da", "nu"]:
-
-print("Excellent! Let us - BEGIN!)
-
+	print("Excellent! Let us, ... BEGIN!")
 else:
-  print("I'm sorry. Is it Da or Nu?")
-
+	print("I'm sorry."); print("Is it Da or Nu?")
